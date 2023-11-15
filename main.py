@@ -13,7 +13,7 @@ class Aplicacion():
     def __init__(self):
         self.root = Tk()
         self.root.geometry("600x250")
-        self.root.title("TF-001_ExtractInfo Tasas")
+        self.root.title("FeesInfo v.1.0")
         self.root.resizable(width=False,height=False)
 
         self.pdf_list = []
